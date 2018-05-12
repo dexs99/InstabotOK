@@ -10,12 +10,12 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="hogwartssalentum19",
-    password="Aspire5720_",
+    login="",
+    password="",
     like_per_day=500,
     comments_per_day=20,
-    tag_list=['salento', 'salentoview', 'salento2018'],
-    tag_blacklist=['sesso', 'sex', 'f4f', 'follow4follow', 'l4l', 'like4like'],
+    tag_list=['', '', ''],
+    tag_blacklist=['', '', '', '', '', ''],
     user_blacklist={},
     max_like_for_one_tag=5,
     follow_per_day=200,
